@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var viewModel = ViewModel()
+    @StateObject private var viewModel = ViewModel()
     
     var body: some View {
         VStack {
@@ -36,7 +36,7 @@ struct ContentView: View {
             }
         }
         .padding()
-        .task {
+        .onAppear {
             viewModel.getData()
         }
     }

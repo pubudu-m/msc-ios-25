@@ -14,6 +14,7 @@ enum AppState {
     case failure(MyCustomError)
 }
 
+@MainActor
 class ViewModel: ObservableObject {
     @Published var state: AppState = .idle
     
