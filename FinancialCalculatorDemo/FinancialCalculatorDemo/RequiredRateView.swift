@@ -1,18 +1,25 @@
 //
 //  RequiredRateView.swift
-//  InvestmentCalculator-Weekday
+//  FinancialCalculatorDemo
 //
-//  Created by Pubudu Mihiranga on 2025-02-20.
+//  Created by Pubudu Mihiranga on 2025-02-23.
 //
 
 import SwiftUI
+
+// 1 - calculating required interest rate for given initial amount and expected final amount
+// user input 1 - initial investment
+// user input 2 - expected amount
+// user input 3 - years
+// calculate - required rate
 
 struct RequiredRateView: View {
     @State private var presentValue: String = ""
     @State private var futureValue: String = ""
     @State private var years: String = ""
     @State private var result: Double?
-    @State private var showingAlert: Bool = false
+    
+    @State private var showAlert: Bool = false
     @State private var alertMessage: String = ""
     
     var body: some View {
@@ -23,34 +30,29 @@ struct RequiredRateView: View {
                         .keyboardType(.decimalPad)
                         .accessibilityIdentifier("presentValue")
                     
-                    TextField("Target Amount ($)", text: $futureValue)
+                    TextField("Expected Amount ($)", text: $futureValue)
                         .keyboardType(.decimalPad)
                         .accessibilityIdentifier("futureValue")
                     
-                    TextField("Time Period (Years)", text: $years)
+                    TextField("Years", text: $years)
                         .keyboardType(.decimalPad)
                         .accessibilityIdentifier("years")
-                } header: {
-                    Text("Input Values")
                 }
                 
                 if let result = result {
                     Section {
                         Text("Required Interest Rate: \(result, specifier: "%.2f")%")
                             .accessibilityIdentifier("result")
-                    } header: {
-                        Text("Result")
                     }
-
                 }
-
-                Button("Calculate") {
+                
+                Button("Caclulate") {
                     calculateRate()
                 }
-                .accessibilityIdentifier("calculate")
+                .accessibilityIdentifier("caclulate")
             }
             .navigationTitle("Required Rate")
-            .alert("Error", isPresented: $showingAlert) {
+            .alert("Ooops! Error", isPresented: $showAlert) {
                 Button("Ok", role: .cancel) {}
             } message: {
                 Text(alertMessage)
@@ -63,19 +65,18 @@ struct RequiredRateView: View {
                 let fv = Double(futureValue),
                 let t = Double(years) else {
             alertMessage = "Please enter valid numbers"
-            showingAlert = true
+            showAlert.toggle()
             return
         }
         
         if pv <= 0 || fv <= 0 || t <= 0 {
             alertMessage = "Values must be greater than zero"
-            showingAlert = true
+            showAlert.toggle()
             return
         }
         
-        result = InvestmentCalculation.calculateRequiredRate(presentValue: pv,
-                                                             futureValue: fv,
-                                                             years: t)
+        // perfrom the calculation
+        result = InvestmentCalculation.calculateRequiredRate(presentValue: pv, futureValue: fv, years: t)
     }
 }
 

@@ -7,57 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		9812EE0D2D67665C001EE2F1 /* PBXContainerItemProxy */ = {
+		988E5BEE2D6ADCE300EE321D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9812EDE42D675B43001EE2F1 /* Project object */;
+			containerPortal = 988E5BC72D6AD0BD00EE321D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9812EDEB2D675B43001EE2F1;
-			remoteInfo = "InvestmentCalculator-Weekday";
+			remoteGlobalIDString = 988E5BCE2D6AD0BD00EE321D;
+			remoteInfo = FinancialCalculatorDemo;
 		};
-		9812EE252D67699C001EE2F1 /* PBXContainerItemProxy */ = {
+		988E5BFD2D6AE1CD00EE321D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9812EDE42D675B43001EE2F1 /* Project object */;
+			containerPortal = 988E5BC72D6AD0BD00EE321D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9812EDEB2D675B43001EE2F1;
-			remoteInfo = "InvestmentCalculator-Weekday";
+			remoteGlobalIDString = 988E5BCE2D6AD0BD00EE321D;
+			remoteInfo = FinancialCalculatorDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9812EDEC2D675B43001EE2F1 /* InvestmentCalculator-Weekday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InvestmentCalculator-Weekday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9812EE092D67665C001EE2F1 /* InvestmentCalculator-UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InvestmentCalculator-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9812EE1F2D67699C001EE2F1 /* InvestmentCalculator-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InvestmentCalculator-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		988E5BCF2D6AD0BD00EE321D /* FinancialCalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialCalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988E5BEA2D6ADCE300EE321D /* FinancialDemoUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialDemoUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988E5BF72D6AE1CD00EE321D /* FinancialDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9812EDEE2D675B43001EE2F1 /* InvestmentCalculator-Weekday */ = {
+		988E5BD12D6AD0BD00EE321D /* FinancialCalculatorDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "InvestmentCalculator-Weekday";
+			path = FinancialCalculatorDemo;
 			sourceTree = "<group>";
 		};
-		9812EE202D67699C001EE2F1 /* InvestmentCalculator-UITests */ = {
+		988E5BEB2D6ADCE300EE321D /* FinancialDemoUnitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "InvestmentCalculator-UITests";
+			path = FinancialDemoUnitTests;
+			sourceTree = "<group>";
+		};
+		988E5BF82D6AE1CD00EE321D /* FinancialDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FinancialDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9812EDE92D675B43001EE2F1 /* Frameworks */ = {
+		988E5BCC2D6AD0BD00EE321D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9812EE062D67665B001EE2F1 /* Frameworks */ = {
+		988E5BE72D6ADCE300EE321D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9812EE1C2D67699C001EE2F1 /* Frameworks */ = {
+		988E5BF42D6AE1CD00EE321D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,21 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9812EDE32D675B43001EE2F1 = {
+		988E5BC62D6AD0BD00EE321D = {
 			isa = PBXGroup;
 			children = (
-				9812EDEE2D675B43001EE2F1 /* InvestmentCalculator-Weekday */,
-				9812EE202D67699C001EE2F1 /* InvestmentCalculator-UITests */,
-				9812EDED2D675B43001EE2F1 /* Products */,
+				988E5BD12D6AD0BD00EE321D /* FinancialCalculatorDemo */,
+				988E5BEB2D6ADCE300EE321D /* FinancialDemoUnitTests */,
+				988E5BF82D6AE1CD00EE321D /* FinancialDemoUITests */,
+				988E5BD02D6AD0BD00EE321D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9812EDED2D675B43001EE2F1 /* Products */ = {
+		988E5BD02D6AD0BD00EE321D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9812EDEC2D675B43001EE2F1 /* InvestmentCalculator-Weekday.app */,
-				9812EE092D67665C001EE2F1 /* InvestmentCalculator-UnitTests.xctest */,
-				9812EE1F2D67699C001EE2F1 /* InvestmentCalculator-UITests.xctest */,
+				988E5BCF2D6AD0BD00EE321D /* FinancialCalculatorDemo.app */,
+				988E5BEA2D6ADCE300EE321D /* FinancialDemoUnitTests.xctest */,
+				988E5BF72D6AE1CD00EE321D /* FinancialDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,132 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9812EDEB2D675B43001EE2F1 /* InvestmentCalculator-Weekday */ = {
+		988E5BCE2D6AD0BD00EE321D /* FinancialCalculatorDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9812EDFA2D675B44001EE2F1 /* Build configuration list for PBXNativeTarget "InvestmentCalculator-Weekday" */;
+			buildConfigurationList = 988E5BDD2D6AD0BE00EE321D /* Build configuration list for PBXNativeTarget "FinancialCalculatorDemo" */;
 			buildPhases = (
-				9812EDE82D675B43001EE2F1 /* Sources */,
-				9812EDE92D675B43001EE2F1 /* Frameworks */,
-				9812EDEA2D675B43001EE2F1 /* Resources */,
+				988E5BCB2D6AD0BD00EE321D /* Sources */,
+				988E5BCC2D6AD0BD00EE321D /* Frameworks */,
+				988E5BCD2D6AD0BD00EE321D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9812EDEE2D675B43001EE2F1 /* InvestmentCalculator-Weekday */,
+				988E5BD12D6AD0BD00EE321D /* FinancialCalculatorDemo */,
 			);
-			name = "InvestmentCalculator-Weekday";
+			name = FinancialCalculatorDemo;
 			packageProductDependencies = (
 			);
-			productName = "InvestmentCalculator-Weekday";
-			productReference = 9812EDEC2D675B43001EE2F1 /* InvestmentCalculator-Weekday.app */;
+			productName = FinancialCalculatorDemo;
+			productReference = 988E5BCF2D6AD0BD00EE321D /* FinancialCalculatorDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9812EE082D67665B001EE2F1 /* InvestmentCalculator-UnitTests */ = {
+		988E5BE92D6ADCE300EE321D /* FinancialDemoUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9812EE0F2D67665C001EE2F1 /* Build configuration list for PBXNativeTarget "InvestmentCalculator-UnitTests" */;
+			buildConfigurationList = 988E5BF02D6ADCE300EE321D /* Build configuration list for PBXNativeTarget "FinancialDemoUnitTests" */;
 			buildPhases = (
-				9812EE052D67665B001EE2F1 /* Sources */,
-				9812EE062D67665B001EE2F1 /* Frameworks */,
-				9812EE072D67665B001EE2F1 /* Resources */,
+				988E5BE62D6ADCE300EE321D /* Sources */,
+				988E5BE72D6ADCE300EE321D /* Frameworks */,
+				988E5BE82D6ADCE300EE321D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9812EE0E2D67665C001EE2F1 /* PBXTargetDependency */,
-			);
-			name = "InvestmentCalculator-UnitTests";
-			packageProductDependencies = (
-			);
-			productName = "InvestmentCalculator-UnitTests";
-			productReference = 9812EE092D67665C001EE2F1 /* InvestmentCalculator-UnitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9812EE1E2D67699C001EE2F1 /* InvestmentCalculator-UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9812EE272D67699C001EE2F1 /* Build configuration list for PBXNativeTarget "InvestmentCalculator-UITests" */;
-			buildPhases = (
-				9812EE1B2D67699C001EE2F1 /* Sources */,
-				9812EE1C2D67699C001EE2F1 /* Frameworks */,
-				9812EE1D2D67699C001EE2F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9812EE262D67699C001EE2F1 /* PBXTargetDependency */,
+				988E5BEF2D6ADCE300EE321D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9812EE202D67699C001EE2F1 /* InvestmentCalculator-UITests */,
+				988E5BEB2D6ADCE300EE321D /* FinancialDemoUnitTests */,
 			);
-			name = "InvestmentCalculator-UITests";
+			name = FinancialDemoUnitTests;
 			packageProductDependencies = (
 			);
-			productName = "InvestmentCalculator-UITests";
-			productReference = 9812EE1F2D67699C001EE2F1 /* InvestmentCalculator-UITests.xctest */;
+			productName = FinancialDemoUnitTests;
+			productReference = 988E5BEA2D6ADCE300EE321D /* FinancialDemoUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		988E5BF62D6AE1CD00EE321D /* FinancialDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988E5BFF2D6AE1CD00EE321D /* Build configuration list for PBXNativeTarget "FinancialDemoUITests" */;
+			buildPhases = (
+				988E5BF32D6AE1CD00EE321D /* Sources */,
+				988E5BF42D6AE1CD00EE321D /* Frameworks */,
+				988E5BF52D6AE1CD00EE321D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				988E5BFE2D6AE1CD00EE321D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				988E5BF82D6AE1CD00EE321D /* FinancialDemoUITests */,
+			);
+			name = FinancialDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = FinancialDemoUITests;
+			productReference = 988E5BF72D6AE1CD00EE321D /* FinancialDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9812EDE42D675B43001EE2F1 /* Project object */ = {
+		988E5BC72D6AD0BD00EE321D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					9812EDEB2D675B43001EE2F1 = {
+					988E5BCE2D6AD0BD00EE321D = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					9812EE082D67665B001EE2F1 = {
+					988E5BE92D6ADCE300EE321D = {
 						CreatedOnToolsVersion = 16.0;
-						LastSwiftMigration = 1600;
-						TestTargetID = 9812EDEB2D675B43001EE2F1;
+						TestTargetID = 988E5BCE2D6AD0BD00EE321D;
 					};
-					9812EE1E2D67699C001EE2F1 = {
+					988E5BF62D6AE1CD00EE321D = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 9812EDEB2D675B43001EE2F1;
+						TestTargetID = 988E5BCE2D6AD0BD00EE321D;
 					};
 				};
 			};
-			buildConfigurationList = 9812EDE72D675B43001EE2F1 /* Build configuration list for PBXProject "InvestmentCalculator-Weekday" */;
+			buildConfigurationList = 988E5BCA2D6AD0BD00EE321D /* Build configuration list for PBXProject "FinancialCalculatorDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9812EDE32D675B43001EE2F1;
+			mainGroup = 988E5BC62D6AD0BD00EE321D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9812EDED2D675B43001EE2F1 /* Products */;
+			productRefGroup = 988E5BD02D6AD0BD00EE321D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9812EDEB2D675B43001EE2F1 /* InvestmentCalculator-Weekday */,
-				9812EE082D67665B001EE2F1 /* InvestmentCalculator-UnitTests */,
-				9812EE1E2D67699C001EE2F1 /* InvestmentCalculator-UITests */,
+				988E5BCE2D6AD0BD00EE321D /* FinancialCalculatorDemo */,
+				988E5BE92D6ADCE300EE321D /* FinancialDemoUnitTests */,
+				988E5BF62D6AE1CD00EE321D /* FinancialDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9812EDEA2D675B43001EE2F1 /* Resources */ = {
+		988E5BCD2D6AD0BD00EE321D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9812EE072D67665B001EE2F1 /* Resources */ = {
+		988E5BE82D6ADCE300EE321D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9812EE1D2D67699C001EE2F1 /* Resources */ = {
+		988E5BF52D6AE1CD00EE321D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9812EDE82D675B43001EE2F1 /* Sources */ = {
+		988E5BCB2D6AD0BD00EE321D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9812EE052D67665B001EE2F1 /* Sources */ = {
+		988E5BE62D6ADCE300EE321D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9812EE1B2D67699C001EE2F1 /* Sources */ = {
+		988E5BF32D6AE1CD00EE321D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9812EE0E2D67665C001EE2F1 /* PBXTargetDependency */ = {
+		988E5BEF2D6ADCE300EE321D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9812EDEB2D675B43001EE2F1 /* InvestmentCalculator-Weekday */;
-			targetProxy = 9812EE0D2D67665C001EE2F1 /* PBXContainerItemProxy */;
+			target = 988E5BCE2D6AD0BD00EE321D /* FinancialCalculatorDemo */;
+			targetProxy = 988E5BEE2D6ADCE300EE321D /* PBXContainerItemProxy */;
 		};
-		9812EE262D67699C001EE2F1 /* PBXTargetDependency */ = {
+		988E5BFE2D6AE1CD00EE321D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9812EDEB2D675B43001EE2F1 /* InvestmentCalculator-Weekday */;
-			targetProxy = 9812EE252D67699C001EE2F1 /* PBXContainerItemProxy */;
+			target = 988E5BCE2D6AD0BD00EE321D /* FinancialCalculatorDemo */;
+			targetProxy = 988E5BFD2D6AE1CD00EE321D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9812EDF82D675B44001EE2F1 /* Debug */ = {
+		988E5BDB2D6AD0BE00EE321D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		9812EDF92D675B44001EE2F1 /* Release */ = {
+		988E5BDC2D6AD0BE00EE321D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,27 +388,28 @@
 			};
 			name = Release;
 		};
-		9812EDFB2D675B44001EE2F1 /* Debug */ = {
+		988E5BDE2D6AD0BE00EE321D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"InvestmentCalculator-Weekday/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FinancialCalculatorDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appfolks.InvestmentCalculator-Weekday";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfolks.FinancialCalculatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -408,27 +417,28 @@
 			};
 			name = Debug;
 		};
-		9812EDFC2D675B44001EE2F1 /* Release */ = {
+		988E5BDF2D6AD0BE00EE321D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"InvestmentCalculator-Weekday/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FinancialCalculatorDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appfolks.InvestmentCalculator-Weekday";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfolks.FinancialCalculatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -436,117 +446,116 @@
 			};
 			name = Release;
 		};
-		9812EE102D67665C001EE2F1 /* Debug */ = {
+		988E5BF12D6ADCE300EE321D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appfolks.InvestmentCalculator-UnitTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfolks.FinancialDemoUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "InvestmentCalculator-UnitTests/InvestmentCalculator-UnitTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvestmentCalculator-Weekday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InvestmentCalculator-Weekday";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialCalculatorDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinancialCalculatorDemo";
 			};
 			name = Debug;
 		};
-		9812EE112D67665C001EE2F1 /* Release */ = {
+		988E5BF22D6ADCE300EE321D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appfolks.InvestmentCalculator-UnitTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfolks.FinancialDemoUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "InvestmentCalculator-UnitTests/InvestmentCalculator-UnitTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvestmentCalculator-Weekday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InvestmentCalculator-Weekday";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialCalculatorDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinancialCalculatorDemo";
 			};
 			name = Release;
 		};
-		9812EE282D67699C001EE2F1 /* Debug */ = {
+		988E5C002D6AE1CD00EE321D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appfolks.InvestmentCalculator-UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfolks.FinancialDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "InvestmentCalculator-Weekday";
+				TEST_TARGET_NAME = FinancialCalculatorDemo;
 			};
 			name = Debug;
 		};
-		9812EE292D67699C001EE2F1 /* Release */ = {
+		988E5C012D6AE1CD00EE321D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.appfolks.InvestmentCalculator-UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfolks.FinancialDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "InvestmentCalculator-Weekday";
+				TEST_TARGET_NAME = FinancialCalculatorDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9812EDE72D675B43001EE2F1 /* Build configuration list for PBXProject "InvestmentCalculator-Weekday" */ = {
+		988E5BCA2D6AD0BD00EE321D /* Build configuration list for PBXProject "FinancialCalculatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9812EDF82D675B44001EE2F1 /* Debug */,
-				9812EDF92D675B44001EE2F1 /* Release */,
+				988E5BDB2D6AD0BE00EE321D /* Debug */,
+				988E5BDC2D6AD0BE00EE321D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9812EDFA2D675B44001EE2F1 /* Build configuration list for PBXNativeTarget "InvestmentCalculator-Weekday" */ = {
+		988E5BDD2D6AD0BE00EE321D /* Build configuration list for PBXNativeTarget "FinancialCalculatorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9812EDFB2D675B44001EE2F1 /* Debug */,
-				9812EDFC2D675B44001EE2F1 /* Release */,
+				988E5BDE2D6AD0BE00EE321D /* Debug */,
+				988E5BDF2D6AD0BE00EE321D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9812EE0F2D67665C001EE2F1 /* Build configuration list for PBXNativeTarget "InvestmentCalculator-UnitTests" */ = {
+		988E5BF02D6ADCE300EE321D /* Build configuration list for PBXNativeTarget "FinancialDemoUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9812EE102D67665C001EE2F1 /* Debug */,
-				9812EE112D67665C001EE2F1 /* Release */,
+				988E5BF12D6ADCE300EE321D /* Debug */,
+				988E5BF22D6ADCE300EE321D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9812EE272D67699C001EE2F1 /* Build configuration list for PBXNativeTarget "InvestmentCalculator-UITests" */ = {
+		988E5BFF2D6AE1CD00EE321D /* Build configuration list for PBXNativeTarget "FinancialDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9812EE282D67699C001EE2F1 /* Debug */,
-				9812EE292D67699C001EE2F1 /* Release */,
+				988E5C002D6AE1CD00EE321D /* Debug */,
+				988E5C012D6AE1CD00EE321D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9812EDE42D675B43001EE2F1 /* Project object */;
+	rootObject = 988E5BC72D6AD0BD00EE321D /* Project object */;
 }
