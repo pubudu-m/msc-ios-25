@@ -15,7 +15,7 @@ struct ContentView: View {
             List {
                 ForEach(viewModel.categories) { category in
                     NavigationLink {
-                        RemindersListView()
+                        RemindersListView(category: category, viewModel: viewModel)
                     } label: {
                         HStack {
                             Text(category.name ?? "")

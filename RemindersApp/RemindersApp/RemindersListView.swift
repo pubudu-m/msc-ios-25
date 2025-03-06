@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct RemindersListView: View {
+    let category: CategoryEntity
+    @ObservedObject var viewModel: ViewModel
+    @State private var isPresented: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                ForEach(category.remindersArray) { reminder in
+                    HStack {
+                        Text(reminder.title ?? "")
+                    }
+                }
+            }
+            .navigationTitle(category.name ?? "")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("", systemImage: "plus") {
+                        isPresented.toggle()
+                    }
+                }
+            }
+            .sheet(isPresented: $isPresented) {
+                AddReminderView(category: category, viewModel: viewModel, isPresented: $isPresented)
+            }
+        }
     }
-}
-
-#Preview {
-    RemindersListView()
 }

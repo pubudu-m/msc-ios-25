@@ -20,6 +20,7 @@ class ViewModel: ObservableObject {
         }
     }
     
+    // fetch categories
     func fetchCategories() {
         let request = NSFetchRequest<CategoryEntity>(entityName: "CategoryEntity")
         request.sortDescriptors = [NSSortDescriptor(keyPath: \CategoryEntity.name, ascending: true)]
@@ -30,6 +31,8 @@ class ViewModel: ObservableObject {
             print("Error fetching categories: \(error.localizedDescription)")
         }
     }
+    
+    // fetch remidners
     
     private func createDefaultCategories() {
         let defaultCategories = ["High", "Medium", "Low"]
