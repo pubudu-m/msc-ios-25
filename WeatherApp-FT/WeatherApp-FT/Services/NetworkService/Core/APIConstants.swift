@@ -1,8 +1,8 @@
 //
 //  APIConstants.swift
-//  WeatherApp-PT
+//  WeatherApp-FT
 //
-//  Created by Pubudu Mihiranga on 2025-03-16.
+//  Created by Pubudu Mihiranga on 2025-03-20.
 //
 
 import Foundation
