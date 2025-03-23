@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var weatherVM = WeatherViewModel(repository: WeatherRepository(networkService: NetworkService()))
+    @StateObject private var weatherVM = WeatherViewModel(repository: WeatherRepository())
     
     var body: some View {
         VStack {
