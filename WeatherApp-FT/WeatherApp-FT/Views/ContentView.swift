@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var weatherVM = WeatherViewModel()
+    @StateObject private var locationSvc = LocationService()
     
     var body: some View {
         VStack {
@@ -31,13 +32,25 @@ struct ContentView: View {
             
             Button("Refresh") {
                 Task {
-                    await weatherVM.fetchWeatther(latitude: 44.34, longitude: 10.99)
+                    let lat = locationSvc.lastKnownLocation?.latitude ?? 44.34
+                    let lon = locationSvc.lastKnownLocation?.longitude ?? 10.99
+                    await weatherVM.fetchWeatther(latitude: lat, longitude: lon)
                 }
+            }
+            
+            Text("\(locationSvc.lastKnownLocation?.latitude ?? 0.0)")
+            Text("\(locationSvc.lastKnownLocation?.longitude ?? 0.0)")
+            
+            Button("Location") {
+                locationSvc.checkLocationAuthorization()
             }
         }
         .padding()
         .task {
-            await weatherVM.fetchWeatther(latitude: 44.34, longitude: 10.99)
+            locationSvc.checkLocationAuthorization()
+            let lat = locationSvc.lastKnownLocation?.latitude ?? 44.34
+            let lon = locationSvc.lastKnownLocation?.longitude ?? 10.99
+            await weatherVM.fetchWeatther(latitude: lat, longitude: lon)
         }
     }
 }
